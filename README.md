@@ -1,4 +1,4 @@
-# First fork the repository in your github version control. Do not commit to this branch
+# First fork the repository in your github account.
 
 # Simple yet elegant blog exercise
 Create a simple yet elegant blog in any technology stack of choice. In this repository there are 2 sample templates attached. They are just for illustration purpose. You may use them, but feel free to use something else.
