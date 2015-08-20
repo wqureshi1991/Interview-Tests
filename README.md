@@ -3,7 +3,7 @@
 # Simple yet elegant exercise
 Create a simple yet elegant formg in any technology stack of choice. In this repository there are 2 sample templates attached. They are just for illustration purpose. You may use them, but feel free to use something else.
 
-# Features of a simple blog
+# Features
  - As a guest I want to see a UI form for Open Standard Fixed Deposit
  - As a guest I want to see the form with following fields.
 	- Debit Account Number*
