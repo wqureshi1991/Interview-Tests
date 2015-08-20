@@ -23,7 +23,7 @@ Create a simple yet elegant form in any technology stack of choice. In this repo
  - As a guest after confirmation I can able see the successful message
 
 # Deadline
-You have until 9 PM tonight. Provide the url to your repository so we can review your work. Commits after 9 PM will not be taken in to account.
+Complete test in 2 hours of time.
 
 # Tips
  - See if you can be creative with your architecture even if you think it’s overkill.
