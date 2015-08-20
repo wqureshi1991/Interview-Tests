@@ -32,3 +32,4 @@ You have until 9 PM tonight. Provide the url to your repository so we can review
  - Less is more.
  - Commit often.
  - Try to write TDD wherever possible
+ - Server side and Client side validations are essential
