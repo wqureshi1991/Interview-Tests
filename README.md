@@ -1,7 +1,7 @@
 # First fork the repository in your github account.
 
 # Simple yet elegant exercise
-Create a simple yet elegant formg in any technology stack of choice. In this repository there are 2 sample templates attached. They are just for illustration purpose. You may use them, but feel free to use something else.
+Create a simple yet elegant form in any technology stack of choice. In this repository there are 2 sample templates attached. They are just for illustration purpose. You may use them, but feel free to use something else.
 
 # Features
  - As a guest I want to see a UI form for Open Standard Fixed Deposit
