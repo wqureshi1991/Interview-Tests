@@ -1,11 +1,13 @@
 # First fork the repository in your github account.
 
 # Simple yet elegant exercise
-Create a simple yet elegant form in any technology stack of choice. In this repository there are 2 sample templates attached. They are just for illustration purpose. You may use them, but feel free to use something else.
+Create a simple yet elegant form in any technology stack of choice. 
+In this repository we have added HTML form with style and HTML. Use the same.
+In this repository there are 2 sample templates attached. They are just for illustration purpose. You may use them, but feel free to use something else.
 
 # Features
  - As a guest I want to see a UI form for Open Standard Fixed Deposit
- - As a guest I want to see the form with following fields.
+ - As a guest I want to see the form (Use HTML in the HTML folder with same style) with following fields.
 	- Debit Account Number*
 	- Amount Deposit*
 	- Type of Deposit*
