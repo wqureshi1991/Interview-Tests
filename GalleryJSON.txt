@@ -1,0 +1,169 @@
+
+Input : http://192.168.10.34/imageData.php
+
+Output:
+
+{
+  "animals": [
+    {
+      "name": "cat.jpg",
+      "imgURL": "images/Animals/cat.jpg"
+    },
+    {
+      "name": "dog.jpg",
+      "imgURL": "images/Animals/dog.jpg"
+    },
+    {
+      "name": "elephant.jpg",
+      "imgURL": "images/Animals/elephant.jpg"
+    },
+    {
+      "name": "goat.jpg",
+      "imgURL": "images/Animals/goat.jpg"
+    },
+    {
+      "name": "lion.jpg",
+      "imgURL": "images/Animals/lion.jpg"
+    },
+    {
+      "name": "monkey.jpg",
+      "imgURL": "images/Animals/monkey.jpg"
+    },
+    {
+      "name": "tiger.jpg",
+      "imgURL": "images/Animals/tiger.jpg"
+    }
+  ],
+  "birds": [
+    {
+      "name": "crow.jpg",
+      "imgURL": "images/Birds/crow.jpg"
+    },
+    {
+      "name": "duck.jpg",
+      "imgURL": "images/Birds/duck.jpg"
+    },
+    {
+      "name": "owl.jpg",
+      "imgURL": "images/Birds/owl.jpg"
+    },
+    {
+      "name": "parrot.jpg",
+      "imgURL": "images/Birds/parrot.jpg"
+    },
+    {
+      "name": "peacock.jpg",
+      "imgURL": "images/Birds/peacock.jpg"
+    }
+  ],
+  "flags": [
+    {
+      "name": "america.jpg",
+      "imgURL": "images/Flags/america.jpg"
+    },
+    {
+      "name": "china.jpg",
+      "imgURL": "images/Flags/china.jpg"
+    },
+    {
+      "name": "india.jpg",
+      "imgURL": "images/Flags/india.jpg"
+    },
+    {
+      "name": "japan.jpg",
+      "imgURL": "images/Flags/japan.jpg"
+    },
+    {
+      "name": "srilanka.jpg",
+      "imgURL": "images/Flags/srilanka.jpg"
+    }
+  ],
+  "flowers": [
+    {
+      "name": "lilly.jpg",
+      "imgURL": "images/Flowers/lilly.jpg"
+    },
+    {
+      "name": "rose.jpg",
+      "imgURL": "images/Flowers/rose.jpg"
+    },
+    {
+      "name": "sunflower.jpg",
+      "imgURL": "images/Flowers/sunflower.jpg"
+    },
+    {
+      "name": "tulip.jpg",
+      "imgURL": "images/Flowers/tulip.jpg"
+    }
+  ],
+  "fruits": [
+    {
+      "name": "apple.jpg",
+      "imgURL": "images/Fruits/apple.jpg"
+    },
+    {
+      "name": "banana.jpg",
+      "imgURL": "images/Fruits/banana.jpg"
+    },
+    {
+      "name": "grapes.jpg",
+      "imgURL": "images/Fruits/grapes.jpg"
+    },
+    {
+      "name": "mango.jpg",
+      "imgURL": "images/Fruits/mango.jpg"
+    },
+    {
+      "name": "orange.jpg",
+      "imgURL": "images/Fruits/orange.jpg"
+    },
+    {
+      "name": "pear.jpg",
+      "imgURL": "images/Fruits/pear.jpg"
+    },
+    {
+      "name": "pineapple.jpg",
+      "imgURL": "images/Fruits/pineapple.jpg"
+    },
+    {
+      "name": "wetermelon.jpg",
+      "imgURL": "images/Fruits/wetermelon.jpg"
+    }
+  ],
+  "technology": [
+    {
+      "name": "computer.jpg",
+      "imgURL": "images/Technology/computer.jpg"
+    },
+    {
+      "name": "mobile.jpg",
+      "imgURL": "images/Technology/mobile.jpg"
+    },
+    {
+      "name": "wifi.jpg",
+      "imgURL": "images/Technology/wifi.jpg"
+    }
+  ],
+  "vegetables": [
+    {
+      "name": "chilli.jpg",
+      "imgURL": "images/Vegetables/chilli.jpg"
+    },
+    {
+      "name": "garlic.jpg",
+      "imgURL": "images/Vegetables/garlic.jpg"
+    },
+    {
+      "name": "onion.jpg",
+      "imgURL": "images/Vegetables/onion.jpg"
+    },
+    {
+      "name": "potato.jpg",
+      "imgURL": "images/Vegetables/potato.jpg"
+    },
+    {
+      "name": "tomato.jpg",
+      "imgURL": "images/Vegetables/tomato.jpg"
+    }
+  ]
+}
