@@ -37,6 +37,7 @@
 		C002B71C1B8B11700062B550 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C002B7051B8B116F0062B550 /* UIRefreshControl+AFNetworking.m */; };
 		C002B71D1B8B11700062B550 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C002B7071B8B116F0062B550 /* UIWebView+AFNetworking.m */; };
 		C002B71F1B8B12B20062B550 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C002B71E1B8B12B20062B550 /* Default.png */; };
+		EB3254D11B981A3B00031553 /* LazyDownloading.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3254D01B981A3B00031553 /* LazyDownloading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,8 @@
 		C002B7061B8B116F0062B550 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		C002B7071B8B116F0062B550 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		C002B71E1B8B12B20062B550 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EB3254CF1B981A3B00031553 /* LazyDownloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyDownloading.h; sourceTree = "<group>"; };
+		EB3254D01B981A3B00031553 /* LazyDownloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyDownloading.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,7 @@
 		C002B6A31B8B0FF50062B550 = {
 			isa = PBXGroup;
 			children = (
+				EB3254CE1B9819FB00031553 /* ImageLodder */,
 				C002B71E1B8B12B20062B550 /* Default.png */,
 				C002B6D51B8B116F0062B550 /* Libraries */,
 				C002B6AE1B8B0FF50062B550 /* PhotoGallery */,
@@ -270,6 +274,15 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		EB3254CE1B9819FB00031553 /* ImageLodder */ = {
+			isa = PBXGroup;
+			children = (
+				EB3254CF1B981A3B00031553 /* LazyDownloading.h */,
+				EB3254D01B981A3B00031553 /* LazyDownloading.m */,
+			);
+			name = ImageLodder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -377,6 +390,7 @@
 				C002B7191B8B11700062B550 /* UIButton+AFNetworking.m in Sources */,
 				C002B71B1B8B11700062B550 /* UIProgressView+AFNetworking.m in Sources */,
 				C002B7091B8B11700062B550 /* AFHTTPRequestOperationManager.m in Sources */,
+				EB3254D11B981A3B00031553 /* LazyDownloading.m in Sources */,
 				C002B70B1B8B11700062B550 /* AFNetworkReachabilityManager.m in Sources */,
 				C002B7181B8B11700062B550 /* UIAlertView+AFNetworking.m in Sources */,
 				C002B70F1B8B11700062B550 /* AFURLResponseSerialization.m in Sources */,
@@ -590,6 +604,7 @@
 				C002B6D11B8B0FF50062B550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C002B6D21B8B0FF50062B550 /* Build configuration list for PBXNativeTarget "PhotoGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +613,7 @@
 				C002B6D41B8B0FF50062B550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

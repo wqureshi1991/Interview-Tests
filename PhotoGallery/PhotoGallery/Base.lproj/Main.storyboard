@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,33 +13,35 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-tT-MlX" userLabel="PreviewView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="240"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lz3-7g-YoT" userLabel="ListView">
-                                <rect key="frame" x="0.0" y="240" width="600" height="360"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="AtK-uT-6kN">
+                                <rect key="frame" x="1" y="229" width="320" height="332"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Idn-0A-bpW"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="xem-0k-GXZ"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t8K-MX-TCK">
+                                <rect key="frame" x="10" y="20" width="294" height="195"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="lz3-7g-YoT" firstAttribute="top" secondItem="Pni-tT-MlX" secondAttribute="bottom" id="3aQ-w3-Xpu"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lz3-7g-YoT" secondAttribute="bottom" id="Bxv-Aa-9rK"/>
-                            <constraint firstAttribute="trailing" secondItem="Pni-tT-MlX" secondAttribute="trailing" id="ED7-GR-KKp"/>
-                            <constraint firstItem="lz3-7g-YoT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="KZE-Sq-vtl"/>
-                            <constraint firstItem="Pni-tT-MlX" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="YDP-zJ-zyg"/>
-                            <constraint firstAttribute="trailing" secondItem="lz3-7g-YoT" secondAttribute="trailing" id="vJa-0W-Uq2"/>
-                            <constraint firstItem="Pni-tT-MlX" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="0.4" id="xQW-za-0jw"/>
-                            <constraint firstItem="Pni-tT-MlX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="zkl-nf-U4G"/>
-                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageview" destination="t8K-MX-TCK" id="acl-Qe-2hX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="363" y="-20"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
